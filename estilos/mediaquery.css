@@ -1,0 +1,32 @@
+@media screen and (min-width:768px) {
+    body, html {
+        background-image: linear-gradient(to right, #0C49F8 , #0CF8AA);
+    }
+
+    main > section {
+        width: 60vw;
+    }
+
+    section > #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    section > #conteudo{
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    body, html {
+        background-image: linear-gradient(to right, #0C49F8 , red);
+    }
+    main > section{
+        width: 90vw;
+    }
+    
+}
