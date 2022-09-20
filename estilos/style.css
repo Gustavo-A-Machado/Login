@@ -1,0 +1,81 @@
+/* 
+Color pallet
+
+Dark Blue - #0C49F8
+Baby Blue - #0B76D9
+Ocean Green - #0CF8AA
+*/
+:root {
+    --darkblue: #0C49F8;
+    --babyblue: #0b76d9;
+    --oceangreen:#0CF8AA;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0C49F8;
+}
+
+main > div{
+    background-image: url(../images/background.jpg);
+    width: 360px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+main{
+    margin: 50px auto;
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #082983;
+    text-align: center;
+    
+}
+
+main > section {
+    margin: 0px;
+    padding: 10px;
+}
+
+main > section > h1 {
+    margin-bottom: 20px;
+}
+
+main > section > p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#iemail{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--babyblue);
+    color: white;
+}
+
+#ipassword{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--babyblue);
+    color: white;
+}
+
+#ientrar{
+    width: 185px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--babyblue);
+    color: white;
+}
