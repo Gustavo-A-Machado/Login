@@ -19,7 +19,34 @@
             <div id="conteudo">
                 <h1> Login </h1>
                 <p> Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                    
+                <form action="coiso.php" method="post">
+
+                    <div class="botoes">
+                        <span class="material-symbols-outlined">
+                            mail
+                            </span>
+                        <input type="email" name="email" id="iemail" placeholder="example@email.com" required>
+                        <label for="iemail">Login</label>
+                    </div>
+
+                    <div class="botoes">
+                        <span class="material-symbols-outlined">
+                            lock
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="6" maxlength="16">
+                        <label for="isenha">Senha</label>
+                    </div>
+
+                    <div class="botoes">
+                        <input type="submit" value="Login" id="ilogin">
+                        <input type="button" value="Esqueci a senha" id="iesquecisenha">
+                    </div>
+                </form>
             </div>
+
+
         </section>
 
     </main>

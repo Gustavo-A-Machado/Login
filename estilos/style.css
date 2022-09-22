@@ -35,10 +35,11 @@ section {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 40vw;
+    width: 55vw;
     height: 80vh;
     background-color: white;
     border-radius: 20px;
+    
 }
 
 div#imagem{
@@ -61,4 +62,15 @@ div#conteudo > h1 {
 div#conteudo > p {
     font-size: 0.8em;
     padding: 10px;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    margin: 5px;
+    text-align: center;
+
+}
+
+#iemail, #isenha{
+    background-color: var(--oceangreen);
 }
