@@ -66,11 +66,43 @@ div#conteudo > p {
 }
 
 .botoes {
-    margin: 5px;
+    margin: 0px 10px 5px 10px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 5px;
+    display: block;
     text-align: center;
+    background-color: #09ca8a;
 
 }
 
-#iemail, #isenha{
-    background-color: var(--oceangreen);
+div.botoes > label {
+    display: none;
+}
+
+
+
+#ilogin {
+    margin: 20px auto;
+    display: block;
+    font-size: 1em;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#ilogin:hover {
+    background-color: #09ca8a;
+}
+
+#iesquecisenha {
+    margin: 10px auto;
+    display: block;
+    font-size: 1em;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#iesquecisenha:hover {
+    background-color: #09ca8a;
 }
